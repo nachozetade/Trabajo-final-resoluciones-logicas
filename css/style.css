@@ -1,0 +1,140 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+}
+
+
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0d6efd;
+}
+
+
+section.bg-light {
+  background-image: url('../assets/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #474c53;
+}
+
+.btn-primary:hover {
+
+  border-color: #ebebebb9;
+}
+
+
+.card h5 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+
+footer {
+  background-color: #212529;
+  color: #fff;
+  font-size: 1rem;
+}
+
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+.card .btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.card .btn-group .btn {
+  flex: 1;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} *
+/* fondo redes*/
+.redes-section {
+  background-image: url('../assets/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+ 
+  color: #fff;
+  margin-bottom: 0;
+}
+
+/* footer pegado */
+footer {
+  margin-top: 0 !important;
+}
+
+/* sombra de texto */
+.redes-section h3, .redes-section p {
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+/* Imágenes de los integrantes*/
+.team-card img {
+  width: 100%;
+  height: 450px; /* todas iguales */
+  object-fit:cover; 
+  object-position: center; 
+  border-radius: 6px 6px 0 0;
+  background-color: #e9ecef; 
+}
+
+/* === ESTILO HORIZONTAL PARA PÁGINAS DE PRODUCTO === */
+.producto-horizontal {
+  background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+}
+
+.producto-card-horizontal {
+  background-color: #ececec;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+
+.producto-card-horizontal h2 {
+  color: #212529;
+}
+
+.producto-card-horizontal li {
+  margin-bottom: 6px;
+  color: #555;
+  font-size: 1rem;
+}
+
+.descripcion-producto {
+  color: #444;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
